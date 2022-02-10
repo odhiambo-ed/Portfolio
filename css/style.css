@@ -13,7 +13,6 @@ p {
 .container {
   width: 375px;
   height: 718px;
-
   background-color: #fff;
 }
 
@@ -51,11 +50,9 @@ main {
   flex-direction: column;
 }
 
-.primary {
-  margin-top: 114px;
-}
 
 .primary {
+  margin-top: 114px;
   width: 327px;
   height: 150px;
   font-style: normal;

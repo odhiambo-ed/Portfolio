@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My name is Edward Odhiambo. This is my Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/white3d/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/white3d/Portfolio/issues"
+  },
+  "homepage": "https://github.com/white3d/Portfolio#readme",
+  "devDependencies": {
+    "hint": "^6.1.9"
+  }
+}

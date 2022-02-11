@@ -74,3 +74,11 @@ main {
 .social-media-icons {
   margin-top: 14px;
 }
+
+.social-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+}

@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/white3d/Portfolio#readme",
   "devDependencies": {
+    "@hint/hint-no-inline-styles": "^1.0.6",
     "hint": "^6.1.9",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",

@@ -12,6 +12,13 @@ p {
   color: #344563;
 }
 
+h2 {
+  color: #172B4D;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -156,7 +156,7 @@ main {
   color: #7a869a;
 }
 
-.button {
+.btn {
   border: 1px solid #396df2;
   text-decoration: none;
   width: fit-content;
@@ -170,8 +170,8 @@ main {
   transition: 300ms;
 }
 
-.button:hover,
-.button:active {
+.btn:hover,
+.btn:active {
   background-color: #396df2;
   color: #fff;
 }
@@ -188,7 +188,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 0 36px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .languages .heading {

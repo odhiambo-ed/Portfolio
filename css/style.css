@@ -104,6 +104,13 @@ main {
   width: 100%;
 }
 
+.single-work h1 {
+  color: #172B4D;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px
+}
+
 .single-work .experience{
   display: flex;
   flex-direction: row;
@@ -168,17 +175,18 @@ main {
 
 .about-myself {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  background-color: #FFF;
   margin: 0 24px;
+  border-top-right-radius: 100px;
 }
 
 .languages{
   display: flex;
   flex-direction: column;
-  background-color: #FFF;
   padding: 0 36px;
   height: fit-content;
-  margin-top: 80px;
+  margin-top: 0px;
 }
 
 .languages .heading{
@@ -211,4 +219,18 @@ main {
 
 .grey-bottom-border{
   border-bottom: 1px solid #DFE1E6;
+}
+
+.about {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.about h1 {
+  color: #172B4D;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
 }

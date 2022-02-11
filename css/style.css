@@ -55,7 +55,6 @@ main {
   flex-direction: column;
   height: 718px;
   border-radius: 0 0 0 100px;
-  /* Width: 375px;*/
 }
 
 .primary {
@@ -95,6 +94,23 @@ main {
   display: grid;
   row-gap: 88px;
   margin: 114px 24px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 8px;
+}
+
+.skills li {
+  padding: 4px 12px;
+  background-color: #ebebff;
+  color: #6070ff;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .single-work {
@@ -140,26 +156,6 @@ main {
   color: #7a869a;
 }
 
-.skills {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  gap: 8px;
-}
-
-.skills li {
-  padding: 4px 12px;
-  background-color: #ebebff;
-  color: #6070ff;
-  border-radius: 8px;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-}
-
-.skills li:hover {
-}
-
 .button {
   border: 1px solid #396df2;
   text-decoration: none;
@@ -192,7 +188,6 @@ main {
   display: flex;
   flex-direction: column;
   padding: 0 36px;
-  height: fit-content;
   margin-top: 0px;
 }
 

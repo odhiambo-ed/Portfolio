@@ -3,27 +3,6 @@
   "version": "1.0.0",
   "description": "My name is Edward Odhiambo. This is my Portfolio",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/white3d/Portfolio.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/white3d/Portfolio/issues"
-  },
-  "homepage": "https://github.com/white3d/Portfolio#readme",
-  "devDependencies": {
-    "hint": "^6.1.9",
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^21.0.0",
-    "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.21.0"
-  },
   "dependencies": {
     "abab": "^2.0.5",
     "abbrev": "^1.1.1",
@@ -557,5 +536,26 @@
     "yargs-parser": "^20.2.9",
     "yauzl": "^2.10.0",
     "zwitch": "^1.0.5"
-  }
+  },
+  "devDependencies": {
+    "hint": "^6.1.9",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/white3d/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/white3d/Portfolio/issues"
+  },
+  "homepage": "https://github.com/white3d/Portfolio#readme"
 }

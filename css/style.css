@@ -245,3 +245,13 @@ main {
   font-size: 40px;
   line-height: 52px;
 }
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/Contact-me.png);
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 779px;
+  margin-top: 103px;
+}

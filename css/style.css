@@ -348,7 +348,7 @@ textarea {
   box-sizing: border-box;   
 }
 
-button[type=submit]{
+.button-submit {
   margin-top: 22px;
   width: 170px;
   height: 48px;
@@ -361,7 +361,14 @@ button[type=submit]{
   color: #6070FF;
   font-weight: 500;
   font-size: 17px;
-  line-height: 24px;  
+  line-height: 24px; 
+  cursor: pointer; 
+}
+
+.button-submit:hover,
+.button-submit:active {
+  background-color: #E5E5E5;
+  color: #000;
 }
 
 .last-line {

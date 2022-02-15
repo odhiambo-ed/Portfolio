@@ -255,3 +255,15 @@ main {
   height: 779px;
   margin-top: 103px;
 }
+
+.contact-text {
+  padding-top: 103px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 24px;
+}
+
+.contact-text h2 {
+  text-align: center;
+}
+

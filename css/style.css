@@ -275,6 +275,7 @@ main {
 }
 
 .contact-text p{
+  margin-top: 14px;
   text-align: center;
   color: #EBEBFF;
   font-family: 'Poppins', sans-serif;
@@ -287,10 +288,73 @@ main {
 .form {
   display: flex;
   flex-direction: column;
-  margin: 0 24px;  
+  margin: 77px 24px 0 24px;  
 }
 
-.form ul{
-  
+.form ul li{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+}
+
+input[type=text]{
+  width: 327px;
+  height: 48px;
+  background-color: #fff;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+} 
+
+input[type=email]{
+  margin-top: 20px;
+  width: 327px;
+  height: 48px;
+  background-color: #fff;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px; 
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;  
+}
+
+textarea {
+  margin-top: 18px;
+  width: 327px;
+  height: 170px;
+  background-color: #fff;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;   
+}
+
+input[type=submit]{
+  margin-top: 22px;
+  width: 170px;
+  height: 48px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: none;
+  padding: 12px 16px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color: #6070FF;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;  
 }
 

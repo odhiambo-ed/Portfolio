@@ -358,3 +358,8 @@ input[type=submit]{
   line-height: 24px;  
 }
 
+.last-line {
+  align-items: center;
+  margin-bottom: 8px;
+}
+

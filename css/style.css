@@ -263,7 +263,34 @@ main {
   margin: 0 24px;
 }
 
-.contact-text h2 {
+.contact-text h2{
   text-align: center;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+
+}
+
+.contact-text p{
+  text-align: center;
+  color: #EBEBFF;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 24px;  
+}
+
+.form ul{
+  
 }
 

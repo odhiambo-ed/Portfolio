@@ -348,7 +348,7 @@ textarea {
   box-sizing: border-box;   
 }
 
-input[type=submit]{
+button[type=submit]{
   margin-top: 22px;
   width: 170px;
   height: 48px;
@@ -367,6 +367,5 @@ input[type=submit]{
 .last-line {
   align-items: center;
   margin: 8px auto;
-
 }
 

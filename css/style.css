@@ -113,6 +113,19 @@ main {
   line-height: 16px;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 77px 24px 0 24px;
+}
+
+.form ul li {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+}
+
 .single-work {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -286,19 +299,6 @@ main {
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  margin: 77px 24px 0 24px;
-}
-
-.form ul li {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  align-items: center;
 }
 
 input[type="text"] {

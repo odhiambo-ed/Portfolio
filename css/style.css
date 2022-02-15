@@ -249,11 +249,15 @@ main {
 .contact-me {
   display: flex;
   flex-direction: column;
-  background-image: url(../img/Contact-me.png);
+  background-color: #6070FF;
   background-repeat: no-repeat;
+  border-radius: 100px 0 0 0;
+  background-image: url(../img/contact-shape.svg);
+  background-position:top 20px right;
   width: 375px;
   height: 779px;
   margin-top: 103px;
+  padding-bottom:20px;
 }
 
 .contact-text {
@@ -332,6 +336,7 @@ textarea {
   width: 327px;
   height: 170px;
   background-color: #fff;
+  padding: 15px 38px 15px 16px;
   border: 1px solid #CFD8DC;
   border-radius: 8px;
   text-align: center;
@@ -339,7 +344,8 @@ textarea {
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
-  line-height: 20px;   
+  line-height: 20px;
+  box-sizing: border-box;   
 }
 
 input[type=submit]{
@@ -360,6 +366,7 @@ input[type=submit]{
 
 .last-line {
   align-items: center;
-  margin-bottom: 8px;
+  margin: 8px auto;
+
 }
 

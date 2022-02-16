@@ -4,7 +4,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  width: 375px;
+  width: 100%;
 }
 
 p {
@@ -24,7 +24,7 @@ h2 {
   padding: 0;
 }
 
-.mobile-nav {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,10 +34,14 @@ h2 {
   margin-right: 24px;
 }
 
-.mobile-nav img {
+.navbar img {
   height: 20px;
   width: auto;
   padding: 10px 12px;
+}
+
+nav {
+  display: none;
 }
 
 main {
@@ -369,4 +373,81 @@ textarea {
 .last-line {
   align-items: center;
   margin: 8px auto;
+}
+
+/* Desktop version */
+@media only screen and (min-width: 992px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .navbar nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* justify-content: space-between; */
+  }
+
+  .navbar nav ul {
+    display: flex;
+    flex-direction: row;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 15px;
+  }
+
+  .navbar nav ul li {
+    list-style: none;
+    margin: 0 20px;
+  }
+
+  .navbar nav ul li a {
+    text-decoration: none;
+    color: #344563;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .main-content {
+    background-image: url(../img/desktop-bg.svg);
+    padding: 0;
+    height: 916px;
+  }
+
+  .primary {
+    margin-top: 288px;
+    width: 100%;
+    height: 122px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #091E42;
+    /* text-align: center; */
+    padding: 0 260px;
+  }
+
+  .primary span {
+    content: "\A";
+  }
+
+  .profile-text {
+    margin-top: 12px;
+    padding: 0 260px;
+  }
+
+  .purple-text {
+   padding-left: 260px;
+
+  }
+
+  .social-media-icons {
+    padding-left: 260px;
+  }
+
+  
 }

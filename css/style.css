@@ -270,7 +270,7 @@ main {
   border-radius: 100px 0 0 0;
   background-image: url(../img/contact-shape.svg);
   background-position: top 20px right;
-  width: 375px;
+  width: 100%;
   height: 779px;
   margin-top: 103px;
   padding-bottom: 20px;
@@ -333,10 +333,9 @@ input[type="email"] {
 
 textarea {
   margin-top: 18px;
-  width: 327px;
   height: 170px;
   background-color: #fff;
-  padding: 15px 38px 15px 16px;
+  padding: 15px 0 15px 16px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   font-family: "Poppins", sans-serif;
@@ -345,6 +344,7 @@ textarea {
   font-size: 17px;
   line-height: 20px;
   box-sizing: border-box;
+  resize: none;
 }
 
 .button-submit {
@@ -377,6 +377,10 @@ textarea {
 
 /* Desktop version */
 @media only screen and (min-width: 992px) {
+  body {
+    height: 4208px;
+  }
+
   .menu-icon {
     display: none;
   }
@@ -449,5 +453,103 @@ textarea {
     padding-left: 260px;
   }
 
-  
+  .works {
+    height: 2694px;
+    box-sizing: border-box;
+    margin: 0 142px;
+  }
+
+  .single-work {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    height: 496px;
+    gap: 46px;
+    margin: auto 0;
+
+    img {
+        width: 50%;
+        float: right;
+        height: 448px;
+        padding: 24px 22px;
+    }
+
+    .holder {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+        text-align: right;
+        width: 50%;
+        float: left;
+    }
+}
+
+.single-work.left {
+    grid-template-areas: 
+        "left right";
+    
+    img {
+        grid-area: left;
+    }
+
+    .holder {
+        text-align: left;
+        width: 25em;
+        justify-self: left;
+    }
+}
+
+.about-myself {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  margin: 0;
+  padding: 0 142px;
+  border-top-right-radius: 100px;
+}
+
+.about {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  /* padding: 0 36px; */
+  margin-top: 0;
+  right: 0;
+  width: 50%;
+}
+
+.contact-me {
+  background-image: url(../img/desktop-contact.svg);
+  height: 846px;
+  padding-bottom: 20px;
+}
+
+.contact-text {
+  margin: 12px 0;
+}
+
+.contact-text h2 {
+  margin: 0 320px;
+}
+
+.contact-text p {
+  margin: 0 436px;
+  height: 102px;
+}
+
+.form {
+  margin: 12px 496px 0 496px;
+}
+
+.last-line {
+  display: none;
+}
+
+
 }

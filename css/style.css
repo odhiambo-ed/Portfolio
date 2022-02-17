@@ -142,7 +142,6 @@ main {
 .single-work .holder {
   display: flex;
   flex-direction: column;
-
   gap: 24px;
 }
 
@@ -397,7 +396,6 @@ textarea {
   .navbar nav {
     display: grid;
     grid-template-columns: auto auto;
-    /* justify-content: space-between; */
   }
 
   .navbar nav ul {
@@ -440,7 +438,6 @@ textarea {
     font-size: 48px;
     line-height: 60px;
     color: #091e42;
-    /* text-align: center; */
     padding: 0 260px;
   }
 
@@ -487,7 +484,8 @@ textarea {
     padding: 24px;
     border-radius: 24px;
     border: 1px solid #dfe1e6;
-    height: fit-content;
+    height: fit-content(100%);
+    height: auto;
   }
 
   .works .single-work:nth-child(odd) {
@@ -540,7 +538,6 @@ textarea {
   }
 
   .about {
-    /* padding: 16px; */
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -553,7 +550,6 @@ textarea {
     padding: 166px 184px 166px 37px;
     margin-top: 0;
     right: 0;
-    /* width: 50%; */
   }
 
   .individual-languages {
@@ -593,7 +589,6 @@ textarea {
   }
 
   .button-submit {
-    /* margin-top: 22px; */
     width: 170px;
     height: 48px;
     background-color: #fff;

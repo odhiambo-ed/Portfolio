@@ -581,6 +581,76 @@ textarea {
     color: #fff;
   }
 
+  .about-myself {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 0 24px;
+    border-top-right-radius: 100px;
+  }
+  
+  .languages {
+    display: flex;
+    flex-direction: column;
+    padding: 0 36px;
+    margin-top: 0;
+  }
+  
+  .languages .heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .chevron-right {
+    width: 6px;
+  }
+  
+  .chevron-down {
+    width: 12px;
+  }
+  
+  .individual-languages {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .individual-languages > div {
+    background-color: #f7f7f9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    padding: 12px 9px;
+    border-radius: 6px;
+  }
+  
+  .individual-languages img {
+    height: 48px;
+  }
+  
+  .grey-bottom-border {
+    border-bottom: 1px solid #dfe1e6;
+  }
+  
+  .about {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .about h1 {
+    color: #172b4d;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
 
 .last-line {
   display: none;

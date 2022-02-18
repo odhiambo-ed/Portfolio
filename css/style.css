@@ -389,6 +389,11 @@ textarea {
     overflow-x: hidden;
   }
 
+  .logo img {
+    transform: rotate(1080deg);
+    transition: all 3s;
+  }
+
   .menu-icon {
     display: none;
   }
@@ -499,6 +504,11 @@ textarea {
   .single-work > img,
   .single-work > div {
     width: 50%;
+    transition: transform 100ms;
+  }
+
+  .single-work img:hover {
+    transform: scale(1.1);
   }
 
   .single-work .holder {
@@ -582,6 +592,10 @@ textarea {
   .contact-text p {
     margin: 0 436px;
     height: 102px;
+  }
+
+  .contact-text p:hover {
+    transform: translate(30px);
   }
 
   .form {

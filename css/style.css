@@ -586,6 +586,10 @@ textarea {
     margin: 12px 0;
   }
 
+  .contact-text p:hover {
+    transform: translate(30px);
+  }
+
   .contact-text h2 {
     margin: 0 320px;
   }

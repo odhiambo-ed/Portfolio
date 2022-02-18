@@ -505,6 +505,11 @@ textarea {
   .single-work > img,
   .single-work > div {
     width: 50%;
+    transition: transform 100ms;
+  }
+
+  .single-work img:hover {
+    transform: scale(1.1);
   }
 
   .single-work .holder {
@@ -619,5 +624,5 @@ textarea {
 
   .last-line {
     display: none;
-  }
+  }  
 }

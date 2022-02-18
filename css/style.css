@@ -389,6 +389,12 @@ textarea {
     overflow-x: hidden;
   }
 
+  .logo img {
+    transform: rotate(1080deg);
+    transition: all 3s;
+    transition-timing: ease-out;
+  }
+
   .menu-icon {
     display: none;
   }

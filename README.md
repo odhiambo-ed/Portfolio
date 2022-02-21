@@ -9,6 +9,7 @@ My name is Edward Odhiambo. This is my Portfolio
 
 
 ## Getting Started
+Use this url to view my portfolio: https://white3d.github.io/Portfolio/
 Use this url to clone the repo on your terminal: https://github.com/white3d/Portfolio.git
 
 

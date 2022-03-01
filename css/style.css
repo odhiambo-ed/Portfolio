@@ -68,17 +68,19 @@ main {
   left: 0;
   right: 0;
   top: 0;
-  background-color: #6070ff;
-  opacity: 0.9;
+  background-color: hsl(234, 100%, 69%, 0.9);
+  backdrop-filter: blur(4px);
   width: 100%;
   height: 100vh;
   padding: 1em;
+  padding-left: 28px;
 }
 
 .mobile-menu-exit {
   margin-top: 62px;
   margin-right: 38px;
   cursor: pointer;
+  float: right;
 }
 
 .menu-btn ul {
@@ -88,15 +90,17 @@ main {
 }
 
 .menu-btn ul li a {
+  display: flex;
+  flex-direction: column;
   color: #fff;
   text-decoration: none;
   padding: 0.5em;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  z-index: 999;
+  z-index: 9999;
 }
 
 .primary {

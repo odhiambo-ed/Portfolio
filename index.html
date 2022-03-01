@@ -24,16 +24,16 @@
         <div class="logo">
             <a href="index.html"><img src="./img/Logo.svg" alt="logo"></a>
         </div>
-        <div class="menu-icon" id="hamburger">
+        <div class="menu-icon" id="hamburger" onclick="mobileMenu()">
             <img src="./img/icon.png" alt="icon">
         </div>
 
         <nav class="menu-btn">
-            <img id="mobile-exit" class="mobile-menu-exit" src="img/exit.svg" alt="Close">
+            <img id="mobile-exit" class="mobile-menu-exit" src="img/exit.svg" alt="Close" onclick="mobileMenu()">
             <ul>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#portfolio" onclick="menuLink()">Portfolio</a></li>
+                <li><a href="#about-me" onclick="menuLink()">About</a></li>
+                <li><a href="#contact" onclick="menuLink()">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -78,7 +78,7 @@
                 </ul>
             </div>
         </section>
-        <section class="works">
+        <section class="works" id="portfolio">
             <div class="single-work">
                 <img src="./img/Portfolio6.png" alt="Portfolio Image One">
                 <div class="holder">
@@ -197,7 +197,7 @@
                 </div>
             </div>
         </section>
-        <section class="about-myself">
+        <section class="about-myself" id="about-me">
             <div class="about">
                 <h1>
                     About<br>
@@ -275,7 +275,7 @@
                 </div>
             </div>
         </section>
-        <footer class="contact-me">
+        <footer class="contact-me" id="contact">
 
             <div class="contact-text">
                 <h2>Contact me</h2>

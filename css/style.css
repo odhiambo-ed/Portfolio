@@ -62,7 +62,7 @@ main {
 }
 
 .menu-btn {
-  display: block;
+  display: none;
   position: fixed;
   z-index: 99;
   left: 0px;
@@ -464,6 +464,10 @@ textarea {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
+  }
+
+  .menu-btn {
+    display: none;
   }
 
   .main-content {

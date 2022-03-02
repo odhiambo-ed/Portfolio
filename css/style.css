@@ -95,6 +95,10 @@ main {
   float: right;
 }
 
+.modal-links-container a {
+  display: block !important;
+}
+
 .menu-btn ul {
   margin-top: 106px;
   list-style: none;
@@ -158,6 +162,7 @@ main {
   display: flex;
   flex-direction: row;
   list-style: none;
+  flex-wrap: wrap;
   gap: 8px;
 }
 
@@ -435,7 +440,7 @@ textarea {
   margin: 8px auto;
 }
 
-.modal{
+.modal {
   position: fixed;
   width: 100vw;
   height: 100vh;
@@ -449,13 +454,12 @@ textarea {
   justify-content: center;
   align-items: center;
   overflow-y: scroll;
-
 }
 
-.modal .modal-content{
+.modal .modal-content {
   padding: 24px;
   background-color: #fff;
-  box-shadow: 0px 0px 5px rgba(0,0,0,0.6);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
   width: 60vw;
   border-radius: 24px;
   display: flex;
@@ -463,22 +467,22 @@ textarea {
   gap: 24px;
   margin-top: 50px;
   margin-bottom: 50px;
-  position:absolute;
-  top:0;
+  position: absolute;
+  top: 0;
 }
 
-.modal .modal-content img{
+.modal .modal-content img {
   width: 100%;
 }
 
-.modal .modal-content .modal-heading{
+.modal .modal-content .modal-heading {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-.modal .modal-content .modal-heading .modal-close{
+.modal .modal-content .modal-heading .modal-close {
   cursor: pointer;
   font-weight: bold;
 }
@@ -506,27 +510,22 @@ textarea {
   color: #7a869a;
 }
 
-.modal-links-container{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.modal-links-container {
+  display: flex;
+  flex-direction: row;
   gap: 10px;
 }
 
-.modal-links-container a{
-  display: block !important;
-}
-
-.modal-info-container, .modal-info-section{
+.modal-info-section,
+.modal-info-container {
   display: grid;
-  grid-template-columns: 1fr;
   gap: 15px;
 }
 
-#response-text{
+#response-text {
   color: red;
   font-weight: 600;
   text-align: center;
-
 }
 
 /* Desktop version */
@@ -639,6 +638,10 @@ textarea {
   .works {
     box-sizing: border-box;
     margin: 142px;
+  }
+
+  .modal-links-container img {
+    width: 100%;
   }
 
   .single-work {
@@ -788,23 +791,32 @@ textarea {
     display: none;
   }
 
-  .modal-info-container{
+  .modal-info-container {
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .modal-info-section{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 24px;
-  }
-
-  .modal-links-container img{
+  .modal-info-container .skills {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    flex-wrap: wrap;
     width: 100%;
   }
 
-  .modal .skills{
-    flex-wrap: flex-end;
+  .modal-info-container .skills li {
+    padding: 4px 8px;
+    background-color: #ebebff;
+    color: #6070ff;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  .modal-info-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
   }
 }

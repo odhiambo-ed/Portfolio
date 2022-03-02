@@ -787,4 +787,24 @@ textarea {
   .last-line {
     display: none;
   }
+
+  .modal-info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .modal-info-section{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+  }
+
+  .modal-links-container img{
+    width: 100%;
+  }
+
+  .modal .skills{
+    flex-wrap: flex-end;
+  }
 }

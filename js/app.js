@@ -65,6 +65,77 @@ const projects = [
   },
 ];
 
+function populateProjects(){
+  let projectsDiv = document.querySelector("#portfolio");
+  projects.forEach((project, index) => {
+    projectsDiv.appendChild(createProject(project, index));
+  });
+}
+
+populateProjects();
+
+function createProject(projectData, index){
+  let singleWork = document.createElement("div");
+  singleWork.className = "single-work";
+
+  let image = document.createElement("img");
+  image.alt = projectData.imageAlt;
+  image.src = projectData.image;
+
+  let holder = document.createElement("div");
+  holder.className = "holder";
+
+  let h2 = document.createElement("h2");
+  h2.textContent = projectData.name;
+
+  let experience = document.createElement("div");
+  experience.className = "experience";
+
+  let company = document.createElement("span");
+  company.textContent = projectData.company;
+
+  let ul = document.createElement("ul");
+
+  projectData.list.forEach(value =>{
+    let li = document.createElement("li");
+    li.textContent = value;
+    ul.appendChild(li);
+  });
+
+  experience.appendChild(company);
+  experience.appendChild(ul);
+
+  let shortDescription = document.createElement("p");
+  shortDescription.textContent = projectData.shortDescription;
+
+  let skills = document.createElement("ul");
+  skills.className = "skills";
+
+  projectData.skills.forEach(value =>{
+    let li = document.createElement("li");
+    li.textContent = value;
+    skills.appendChild(li);
+  });
+
+  let modalLink = document.createElement("a");
+  modalLink.setAttribute("data-modal-id", projectData.modalLink);
+  modalLink.textContent = "See Project";
+  modalLink.className = "btn modal-button";
+  modalLink.setAttribute("data-modal-index", index);
+
+  holder.appendChild(h2);
+  holder.appendChild(experience);
+  holder.appendChild(shortDescription);
+  holder.appendChild(skills);
+  holder.appendChild(modalLink);
+
+  singleWork.appendChild(image);
+  singleWork.appendChild(holder);
+
+  return singleWork;
+
+}
+
 function mobileMenu() {
   const elements = document.getElementsByClassName('menu-btn');
   Array.from(elements).forEach((x) => {

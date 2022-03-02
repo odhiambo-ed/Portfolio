@@ -44,6 +44,18 @@ nav {
   display: none;
 }
 
+.logo a {
+  transform: rotate(1080deg);
+  transition: all 3s;
+  color: #6070ff;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 20px;
+}
+
 main {
   min-height: 100vh;
   background-color: #f7f7f9;
@@ -431,9 +443,16 @@ textarea {
     overflow-x: hidden;
   }
 
-  .logo img {
+  .logo a {
     transform: rotate(1080deg);
     transition: all 3s;
+    color: #6070ff;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 20px;
   }
 
   .menu-icon {

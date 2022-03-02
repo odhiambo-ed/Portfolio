@@ -65,6 +65,10 @@ const projects = [
   },
 ];
 
+
+/*
+Mobile Menu
+*/
 function mobileMenu() {
   const elements = document.getElementsByClassName('menu-btn');
   Array.from(elements).forEach((x) => {
@@ -77,6 +81,7 @@ function mobileMenu() {
 }
 mobileMenu();
 
+// Moble Menu Links
 function menuLink() {
   const elements = document.getElementsByClassName('menu-btn');
   Array.from(elements).forEach((x) => {

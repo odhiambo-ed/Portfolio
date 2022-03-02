@@ -435,6 +435,100 @@ textarea {
   margin: 8px auto;
 }
 
+.modal{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  background-color: hsl(234, 100%, 69%, 0.6);
+  backdrop-filter: blur(4px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+
+}
+
+.modal .modal-content{
+  padding: 24px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.6);
+  width: 60vw;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position:absolute;
+  top:0;
+}
+
+.modal .modal-content img{
+  width: 100%;
+}
+
+.modal .modal-content .modal-heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal .modal-content .modal-heading .modal-close{
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.modal .modal-content .experience {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  font-weight: 600;
+}
+
+.modal .modal-content .experience span {
+  color: #344563;
+  font-weight: 500;
+}
+
+.modal .modal-content .experience ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.modal .modal-content .experience ul li {
+  color: #7a869a;
+}
+
+.modal-links-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.modal-links-container a{
+  display: block !important;
+}
+
+.modal-info-container, .modal-info-section{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+#response-text{
+  color: red;
+  font-weight: 600;
+  text-align: center;
+
+}
+
 /* Desktop version */
 @media only screen and (min-width: 992px) {
   body {

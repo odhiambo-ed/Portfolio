@@ -460,7 +460,8 @@ textarea {
   padding: 24px;
   background-color: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
-  width: 60vw;
+  width: 80vw;
+  height: 100vh;
   border-radius: 24px;
   display: flex;
   flex-direction: column;
@@ -471,8 +472,10 @@ textarea {
   top: 0;
 }
 
-.modal .modal-content img {
-  width: 100%;
+.modal-content img {
+  width: 90%;
+  height: 35%;
+  padding: 0 12px;
 }
 
 .modal .modal-content .modal-heading {
@@ -516,10 +519,26 @@ textarea {
   gap: 10px;
 }
 
+.modal-links-container a img {
+  width: 142px;
+  height: 40px;
+  padding: 2px;
+}
+
 .modal-info-section,
 .modal-info-container {
   display: grid;
-  gap: 15px;
+  gap: 4px;
+  margin-top: 2px;
+}
+
+.modal-info-section p {
+  color: #344563;
+  font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
 }
 
 #response-text {
@@ -794,7 +813,7 @@ textarea {
   .modal-info-container {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 4px;
   }
 
   .modal-info-container .skills {
@@ -816,7 +835,13 @@ textarea {
 
   .modal-info-section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 24px;
+  }
+
+  .modal-content img {
+    width: 90%;
+    height: 60%;
+    padding: 0 72px;
   }
 }

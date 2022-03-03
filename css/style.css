@@ -534,11 +534,11 @@ textarea {
 
 .modal-info-section p {
   color: #344563;
-  font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 24px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 #response-text {
@@ -661,6 +661,12 @@ line-height: 24px;
 
   .modal-links-container img {
     width: 100%;
+  }
+
+  .modal-content img {
+    width: 90%;
+    height: 60%;
+    padding: 0 72px;
   }
 
   .single-work {
@@ -837,11 +843,5 @@ line-height: 24px;
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 24px;
-  }
-
-  .modal-content img {
-    width: 90%;
-    height: 60%;
-    padding: 0 72px;
   }
 }

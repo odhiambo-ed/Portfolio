@@ -300,8 +300,7 @@ document.addEventListener('click', (e) => {
 /*
  Email Validation
  */
-
- document.querySelector('#contact-form').addEventListener('submit', (e) => {
+document.querySelector('#contact-form').addEventListener('submit', (e) => {
   let valid = true;
 
   const responseContainer = document.querySelector('#response-text');

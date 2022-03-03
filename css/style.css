@@ -447,7 +447,7 @@ textarea {
   top: 0;
   left: 0;
   z-index: 99999;
-  background-color: hsl(234, 100%, 69%, 0.6);
+  background-color: hsl(216, 14%, 79%, 0.8);
   backdrop-filter: blur(4px);
   display: flex;
   flex-direction: column;

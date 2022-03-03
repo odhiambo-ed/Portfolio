@@ -189,7 +189,7 @@
           </p>
         </div>
 
-        <div class="form">
+        <div id="contact-form" class="form">
           <form action="https://formspree.io/f/xoqrdelo" method="post">
             <ul>
               <li>
@@ -203,6 +203,7 @@
               </li>
               <li>
                 <input
+                  id="email"
                   type="email"
                   name="email"
                   placeholder="Your Email"
@@ -218,9 +219,10 @@
                 ></textarea>
               </li>
               <li>
-                <button class="button-submit" type="submit">
+                <button class="button-submit" id="submit" type="submit">
                   Get It Touch
                 </button>
+                <p id = "response-text"></p>
               </li>
             </ul>
           </form>

@@ -301,21 +301,24 @@ document.addEventListener('click', (e) => {
  Email Validation
  */
 
- document.querySelector("#contact-form").addEventListener("submit", e =>{
+document.querySelector('#contact-form').addEventListener('submit', (e) => {
   let valid = true;
 
-  let responseContainer = document.querySelector("#response-text");
+  const responseContainer = document.querySelector('#response-text');
 
-  let emailArray = document.querySelector("#email").value.split('');
+  const emailArray = document.querySelector('#email').value.split('');
 
-  for(let i = 0; i < emailArray.length; i++){
-    if(emailArray[i] != emailArray[i].toLowerCase() && emailArray[i] != "@" && emailArray[i] != ".") {
+  for (let i = 0; i < emailArray.length; i += 1) {
+    if (
+      emailArray[i] !== emailArray[i].toLowerCase()
+      && emailArray[i] !== '@' && emailArray[i] !== '.'
+    ) {
       valid = false;
     }
   }
 
-  if(!valid){
+  if (!valid) {
     e.preventDefault();
-    responseContainer.innerHTML = "Invalid Email";
+    responseContainer.innerHTML = 'Invalid Email';
   }
 });

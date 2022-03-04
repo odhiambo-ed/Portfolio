@@ -138,7 +138,7 @@ function populateProjects() {
 populateProjects();
 
 function mobileMenu() {
-  const elements = document.getElementsByClassName('menu-btn');
+  const elements = document.getElementsByClassName('#menu-btn');
   Array.from(elements).forEach((x) => {
     if (x.style.display === 'none') {
       x.style.display = 'block';
